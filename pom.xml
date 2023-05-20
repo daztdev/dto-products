@@ -12,7 +12,7 @@
 	<artifactId>dto-products</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>dto-products</name>
-	<description>library that containt all of the definitions to use the ms-products</description>
+	<description>library that contain all the definitions to use the ms-products</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
