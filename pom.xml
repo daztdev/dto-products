@@ -15,6 +15,7 @@
 	<description>library that contain all the definitions to use the ms-products</description>
 	<properties>
 		<java.version>11</java.version>
+		<org.lombok.version>1.18.26</org.lombok.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -24,7 +25,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<optional>true</optional>
+			<version>${org.lombok.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
