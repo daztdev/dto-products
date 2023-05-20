@@ -55,14 +55,14 @@ public class Product implements Serializable {
     private BigDecimal price;
 
     /** updateTime. */
-    @CreationTimestamp
+    @UpdateTimestamp
     @Column(nullable = false, name = "update_time")
     @Temporal(TemporalType.TIMESTAMP)
     private Date updateTime;
 
     /** createTime. */
-    @UpdateTimestamp
-    @Column(nullable = false, name = "create_time")
+    @CreationTimestamp
+    @Column(nullable = false, name = "create_time", updatable = false)
     @Temporal(TemporalType.TIMESTAMP)
     private Date createTime;
 
