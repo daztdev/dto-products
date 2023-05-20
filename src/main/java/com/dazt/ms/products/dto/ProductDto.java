@@ -3,10 +3,10 @@ package com.dazt.ms.products.dto;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.time.LocalDateTime;
-
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.experimental.SuperBuilder;
 
 /**
  * ProductDto.
@@ -15,7 +15,9 @@ import lombok.experimental.SuperBuilder;
  * @version 1.0.0, 02-11-2022
  */
 @Data
+@Builder
 @NoArgsConstructor
+@AllArgsConstructor
 public class ProductDto {
 
     private BigInteger id;
